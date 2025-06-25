@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ProjetoSD1
-Wed Jun 25 00:28:03 2025
+Wed Jun 25 11:42:59 2025
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -10,7 +10,13 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -37,20 +43,20 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Wed Jun 25 00:28:03 2025           ;
+; Analysis & Synthesis Status        ; Successful - Wed Jun 25 11:42:59 2025       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ProjetoSD1                                  ;
-; Top-level Entity Name              ; M_B                                         ;
+; Top-level Entity Name              ; M_A                                         ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; N/A until Partition Merge                   ;
-;     Total combinational functions  ; N/A until Partition Merge                   ;
-;     Dedicated logic registers      ; N/A until Partition Merge                   ;
-; Total registers                    ; N/A until Partition Merge                   ;
-; Total pins                         ; N/A until Partition Merge                   ;
-; Total virtual pins                 ; N/A until Partition Merge                   ;
-; Total memory bits                  ; N/A until Partition Merge                   ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
-; Total PLLs                         ; N/A until Partition Merge                   ;
+; Total logic elements               ; 5                                           ;
+;     Total combinational functions  ; 5                                           ;
+;     Dedicated logic registers      ; 0                                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 11                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -59,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
-; Top-level entity name                                            ; M_B                ; ProjetoSD1         ;
+; Top-level entity name                                            ; M_A                ; ProjetoSD1         ;
 ; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -155,13 +161,107 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                    ;
++----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                          ; Library ;
++----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------------------+---------+
+; X.bdf                            ; yes             ; User Block Diagram/Schematic File  ; C:/Users/JPere/ProjetoULA_SD/ProjetoSD1/Circuitos/CompMagnitude/X.bdf                 ;         ;
+; CompMagnitude_M_A.bdf            ; yes             ; User Block Diagram/Schematic File  ; C:/Users/JPere/ProjetoULA_SD/ProjetoSD1/Circuitos/CompMagnitude/CompMagnitude_M_A.bdf ;         ;
+; CompMagnitude_M_B.bdf            ; yes             ; User Block Diagram/Schematic File  ; C:/Users/JPere/ProjetoULA_SD/ProjetoSD1/Circuitos/CompMagnitude/CompMagnitude_M_B.bdf ;         ;
+; M_A.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/JPere/ProjetoULA_SD/ProjetoSD1/Circuitos/CompMagnitude/M_A.bdf               ;         ;
++----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary            ;
++---------------------------------------------+----------+
+; Resource                                    ; Usage    ;
++---------------------------------------------+----------+
+; Estimated Total logic elements              ; 5        ;
+;                                             ;          ;
+; Total combinational functions               ; 5        ;
+; Logic element usage by number of LUT inputs ;          ;
+;     -- 4 input functions                    ; 3        ;
+;     -- 3 input functions                    ; 2        ;
+;     -- <=2 input functions                  ; 0        ;
+;                                             ;          ;
+; Logic elements by mode                      ;          ;
+;     -- normal mode                          ; 5        ;
+;     -- arithmetic mode                      ; 0        ;
+;                                             ;          ;
+; Total registers                             ; 0        ;
+;     -- Dedicated logic registers            ; 0        ;
+;     -- I/O registers                        ; 0        ;
+;                                             ;          ;
+; I/O pins                                    ; 11       ;
+;                                             ;          ;
+; Embedded Multiplier 9-bit elements          ; 0        ;
+;                                             ;          ;
+; Maximum fan-out node                        ; a4~input ;
+; Maximum fan-out                             ; 4        ;
+; Total fan-out                               ; 30       ;
+; Average fan-out                             ; 1.11     ;
++---------------------------------------------+----------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                      ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
+; |M_A                       ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 11   ; 0            ; |M_A                ; M_A         ; work         ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 11                          ;
+; cycloneiii_lcell_comb ; 5                           ;
+;     normal            ; 5                           ;
+;         3 data inputs ; 2                           ;
+;         4 data inputs ; 3                           ;
+;                       ;                             ;
+; Max LUT depth         ; 5.00                        ;
+; Average LUT depth     ; 4.07                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Jun 25 00:27:57 2025
+    Info: Processing started: Wed Jun 25 11:42:53 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ProjetoSD1 -c ProjetoSD1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
@@ -175,14 +275,21 @@ Info (12021): Found 1 design units, including 1 entities, in source file m_a.bdf
     Info (12023): Found entity 1: M_A
 Info (12021): Found 1 design units, including 1 entities, in source file m_b.bdf
     Info (12023): Found entity 1: M_B
-Info (12127): Elaborating entity "M_B" for the top level hierarchy
-Info (12128): Elaborating entity "CompMagnitude_M_A" for hierarchy "CompMagnitude_M_A:inst"
-Error (12004): Port "OUT1" does not exist in primitive "AND5" of instance "inst20"
-Error (12152): Can't elaborate user hierarchy "CompMagnitude_M_A:inst"
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 1 warning
-    Error: Peak virtual memory: 4709 megabytes
-    Error: Processing ended: Wed Jun 25 00:28:03 2025
-    Error: Elapsed time: 00:00:06
-    Error: Total CPU time (on all processors): 00:00:15
+Info (12127): Elaborating entity "M_A" for the top level hierarchy
+Info (12128): Elaborating entity "CompMagnitude_M_A" for hierarchy "CompMagnitude_M_A:inst9"
+Info (12128): Elaborating entity "X" for hierarchy "CompMagnitude_M_A:inst9|X:inst1"
+Info (12128): Elaborating entity "CompMagnitude_M_B" for hierarchy "CompMagnitude_M_B:inst10"
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 16 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 10 input pins
+    Info (21059): Implemented 1 output pins
+    Info (21061): Implemented 5 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4773 megabytes
+    Info: Processing ended: Wed Jun 25 11:42:59 2025
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:14
 
 

@@ -1,0 +1,99 @@
+|M_A
+A_MAIORQUE_B <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a4 => inst4.IN0
+a4 => inst8.IN0
+b4 => inst6.IN0
+b4 => inst8.IN1
+b4 => inst5.IN1
+a3 => CompMagnitude_M_A:inst9.A3
+a3 => CompMagnitude_M_B:inst10.A3
+b3 => CompMagnitude_M_A:inst9.B3
+b3 => CompMagnitude_M_B:inst10.B3
+a2 => CompMagnitude_M_A:inst9.A2
+a2 => CompMagnitude_M_B:inst10.A2
+b2 => CompMagnitude_M_A:inst9.B2
+b2 => CompMagnitude_M_B:inst10.B2
+a1 => CompMagnitude_M_A:inst9.A1
+a1 => CompMagnitude_M_B:inst10.A1
+b1 => CompMagnitude_M_A:inst9.B1
+b1 => CompMagnitude_M_B:inst10.B1
+a0 => CompMagnitude_M_A:inst9.A0
+a0 => CompMagnitude_M_B:inst10.A0
+b0 => CompMagnitude_M_A:inst9.B0
+b0 => CompMagnitude_M_B:inst10.B0
+
+
+|M_A|CompMagnitude_M_A:inst9
+M_A <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst17.IN0
+A3 => X:inst1.An
+B3 => inst.IN0
+B3 => X:inst1.Bn
+A2 => inst18.IN1
+A2 => X:inst2.An
+B2 => inst11.IN0
+B2 => X:inst2.Bn
+A0 => inst9.IN0
+B0 => inst10.IN0
+A1 => X:inst3.An
+A1 => inst4.IN2
+A1 => inst5.IN1
+B1 => X:inst3.Bn
+B1 => inst12.IN0
+
+
+|M_A|CompMagnitude_M_A:inst9|X:inst1
+Xn <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+An => inst.IN0
+Bn => inst.IN1
+
+
+|M_A|CompMagnitude_M_A:inst9|X:inst2
+Xn <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+An => inst.IN0
+Bn => inst.IN1
+
+
+|M_A|CompMagnitude_M_A:inst9|X:inst3
+Xn <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+An => inst.IN0
+Bn => inst.IN1
+
+
+|M_A|CompMagnitude_M_B:inst10
+M_B <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+B3 => inst17.IN0
+B3 => X:inst7.An
+A3 => inst.IN0
+A3 => X:inst7.Bn
+B2 => inst18.IN1
+B2 => X:inst8.An
+A2 => inst11.IN0
+A2 => X:inst8.Bn
+B1 => X:inst9.An
+B1 => inst1.IN2
+B1 => inst2.IN1
+A1 => X:inst9.Bn
+A1 => inst12.IN0
+B0 => inst4.IN1
+A0 => inst10.IN0
+
+
+|M_A|CompMagnitude_M_B:inst10|X:inst7
+Xn <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+An => inst.IN0
+Bn => inst.IN1
+
+
+|M_A|CompMagnitude_M_B:inst10|X:inst9
+Xn <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+An => inst.IN0
+Bn => inst.IN1
+
+
+|M_A|CompMagnitude_M_B:inst10|X:inst8
+Xn <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+An => inst.IN0
+Bn => inst.IN1
+
+

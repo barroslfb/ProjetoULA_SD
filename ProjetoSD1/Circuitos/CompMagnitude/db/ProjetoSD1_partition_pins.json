@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "A_MAIORQUE_B",
+					"strict" : false
+				},
+				{
+					"name" : "b4",
+					"strict" : false
+				},
+				{
+					"name" : "a4",
+					"strict" : false
+				},
+				{
+					"name" : "b3",
+					"strict" : false
+				},
+				{
+					"name" : "a3",
+					"strict" : false
+				},
+				{
+					"name" : "b2",
+					"strict" : false
+				},
+				{
+					"name" : "a2",
+					"strict" : false
+				},
+				{
+					"name" : "b1",
+					"strict" : false
+				},
+				{
+					"name" : "a1",
+					"strict" : false
+				},
+				{
+					"name" : "b0",
+					"strict" : false
+				},
+				{
+					"name" : "a0",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
