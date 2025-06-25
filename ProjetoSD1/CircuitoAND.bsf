@@ -21,8 +21,8 @@ https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 208 112)
-	(text "M_A" (rect 5 0 30 19)(font "Intel Clear" (font_size 8)))
+	(rect 16 16 144 112)
+	(text "CircuitoAND" (rect 5 0 76 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 75 24 92)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
@@ -39,13 +39,13 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
-		(pt 192 32)
+		(pt 128 32)
 		(output)
-		(text "A_MAIORQUE_B" (rect 0 0 96 19)(font "Intel Clear" (font_size 8)))
-		(text "A_MAIORQUE_B" (rect 75 27 171 46)(font "Intel Clear" (font_size 8)))
-		(line (pt 192 32)(pt 176 32))
+		(text "F[5..0]" (rect 0 0 37 19)(font "Intel Clear" (font_size 8)))
+		(text "F[5..0]" (rect 70 27 107 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 128 32)(pt 112 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 176 80))
+		(rectangle (rect 16 16 112 80))
 	)
 )
