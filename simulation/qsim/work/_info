@@ -1,0 +1,174 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/simulation/qsim
+vcomplemento2
+Z1 !s110 1750943602
+!i10b 1
+!s100 0ZiYFAHUY0ffUVMgc0f?30
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+In2VdRNJR><2hJQe^>[H;<1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1750943602
+Z5 8ProjetoSD1.vo
+Z6 FProjetoSD1.vo
+!i122 24
+L0 31 280
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1750943602.000000
+Z9 !s107 ProjetoSD1.vo|
+Z10 !s90 -work|work|ProjetoSD1.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcomplemento2_vlg_vec_tst
+R1
+!i10b 1
+!s100 Y?]9IbRLEA?A2>ZOIW93n0
+R2
+I1oA3@7CM6iig]od1g7ckB1
+R3
+R0
+w1750943601
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+!i122 25
+L0 29 65
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R11
+R12
+vhard_block
+R1
+!i10b 1
+!s100 cL_e9PFJzLSh;oOD>K4G_1
+R2
+IkW5e1NYJE8FNkT;jZDlO<1
+R3
+R0
+R4
+R5
+R6
+!i122 24
+L0 312 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vProjetoSD1
+Z13 !s110 1750937481
+!i10b 1
+!s100 ^Lm5OzVn5[W[Yh4[XD:PV3
+R2
+IznhhoeP0WDESh=IB[UC401
+R3
+R0
+w1750937480
+R5
+R6
+!i122 12
+L0 31 3449
+R7
+r1
+!s85 0
+31
+Z14 !s108 1750937481.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@projeto@s@d1
+vProjetoSD1_vlg_vec_tst
+R13
+!i10b 1
+!s100 IhkX^RQD>0<jNinll9Vf73
+R2
+I[Hmh6C0VzPS3_T@B0_12A3
+R3
+R0
+w1750937479
+Z15 8somador_completo.vwf.vt
+Z16 Fsomador_completo.vwf.vt
+!i122 13
+L0 29 146
+R7
+r1
+!s85 0
+31
+R14
+Z17 !s107 somador_completo.vwf.vt|
+Z18 !s90 -work|work|somador_completo.vwf.vt|
+!i113 1
+R11
+R12
+n@projeto@s@d1_vlg_vec_tst
+vsomador_completo
+Z19 !s110 1750937706
+!i10b 1
+!s100 =TC1h2R5eX@CAmbG]P7JA3
+R2
+Ih=J26g6CAfkjJGjo[ZTCj1
+R3
+R0
+w1750937705
+R5
+R6
+!i122 22
+L0 31 882
+R7
+r1
+!s85 0
+31
+Z20 !s108 1750937706.000000
+R9
+R10
+!i113 1
+R11
+R12
+vsomador_completo_vlg_vec_tst
+R19
+!i10b 1
+!s100 K26EJ8M[;jBO^WSkhBb``3
+R2
+Idl_[z9LEUCYCVce_FNS;B0
+R3
+R0
+w1750937704
+R15
+R16
+!i122 23
+L0 29 70
+R7
+r1
+!s85 0
+31
+R20
+R17
+R18
+!i113 1
+R11
+R12

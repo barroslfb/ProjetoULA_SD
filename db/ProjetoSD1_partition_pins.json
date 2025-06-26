@@ -1,0 +1,245 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED_STATUS",
+					"strict" : false
+				},
+				{
+					"name" : "F5",
+					"strict" : false
+				},
+				{
+					"name" : "F4",
+					"strict" : false
+				},
+				{
+					"name" : "F3",
+					"strict" : false
+				},
+				{
+					"name" : "F2",
+					"strict" : false
+				},
+				{
+					"name" : "F1",
+					"strict" : false
+				},
+				{
+					"name" : "F0",
+					"strict" : false
+				},
+				{
+					"name" : "Ae",
+					"strict" : false
+				},
+				{
+					"name" : "Be",
+					"strict" : false
+				},
+				{
+					"name" : "Ce",
+					"strict" : false
+				},
+				{
+					"name" : "De",
+					"strict" : false
+				},
+				{
+					"name" : "Ee",
+					"strict" : false
+				},
+				{
+					"name" : "Fe",
+					"strict" : false
+				},
+				{
+					"name" : "Ge",
+					"strict" : false
+				},
+				{
+					"name" : "Ad",
+					"strict" : false
+				},
+				{
+					"name" : "Bd",
+					"strict" : false
+				},
+				{
+					"name" : "Cd",
+					"strict" : false
+				},
+				{
+					"name" : "Dd",
+					"strict" : false
+				},
+				{
+					"name" : "Ed",
+					"strict" : false
+				},
+				{
+					"name" : "Fd",
+					"strict" : false
+				},
+				{
+					"name" : "Gd",
+					"strict" : false
+				},
+				{
+					"name" : "A_Ae_Input",
+					"strict" : false
+				},
+				{
+					"name" : "A_De_Input",
+					"strict" : false
+				},
+				{
+					"name" : "A_Ee_Input",
+					"strict" : false
+				},
+				{
+					"name" : "A_Fe_Input",
+					"strict" : false
+				},
+				{
+					"name" : "A_Ad_Input",
+					"strict" : false
+				},
+				{
+					"name" : "A_Bd_Input",
+					"strict" : false
+				},
+				{
+					"name" : "A_Cd_Input",
+					"strict" : false
+				},
+				{
+					"name" : "A_Dd_Input",
+					"strict" : false
+				},
+				{
+					"name" : "A_Ed_Input",
+					"strict" : false
+				},
+				{
+					"name" : "A_Fd_Input",
+					"strict" : false
+				},
+				{
+					"name" : "A_Gd_Input",
+					"strict" : false
+				},
+				{
+					"name" : "B_Ae_Input",
+					"strict" : false
+				},
+				{
+					"name" : "B_De_Input",
+					"strict" : false
+				},
+				{
+					"name" : "B_Ee_Input",
+					"strict" : false
+				},
+				{
+					"name" : "B_Fe_Input",
+					"strict" : false
+				},
+				{
+					"name" : "B_Ad_Input",
+					"strict" : false
+				},
+				{
+					"name" : "B_Bd_Input",
+					"strict" : false
+				},
+				{
+					"name" : "B_Cd_Input",
+					"strict" : false
+				},
+				{
+					"name" : "B_Dd_Input",
+					"strict" : false
+				},
+				{
+					"name" : "B_Ed_Input",
+					"strict" : false
+				},
+				{
+					"name" : "B_Fd_Input",
+					"strict" : false
+				},
+				{
+					"name" : "B_Gd_Input",
+					"strict" : false
+				},
+				{
+					"name" : "SINAL_A",
+					"strict" : false
+				},
+				{
+					"name" : "SINAL_B",
+					"strict" : false
+				},
+				{
+					"name" : "SINAL_F",
+					"strict" : false
+				},
+				{
+					"name" : "S2",
+					"strict" : false
+				},
+				{
+					"name" : "A4",
+					"strict" : false
+				},
+				{
+					"name" : "B4",
+					"strict" : false
+				},
+				{
+					"name" : "B3",
+					"strict" : false
+				},
+				{
+					"name" : "B2",
+					"strict" : false
+				},
+				{
+					"name" : "A2",
+					"strict" : false
+				},
+				{
+					"name" : "A3",
+					"strict" : false
+				},
+				{
+					"name" : "B1",
+					"strict" : false
+				},
+				{
+					"name" : "B0",
+					"strict" : false
+				},
+				{
+					"name" : "A0",
+					"strict" : false
+				},
+				{
+					"name" : "A1",
+					"strict" : false
+				},
+				{
+					"name" : "S0",
+					"strict" : false
+				},
+				{
+					"name" : "S1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
