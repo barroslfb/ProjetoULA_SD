@@ -42,13 +42,17 @@ set_global_assignment -name DEVICE AUTO
 set_global_assignment -name TOP_LEVEL_ENTITY M_A
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:59:02  JUNE 24, 2025"
-set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.1 Lite Edition"
 set_global_assignment -name BDF_FILE X.bdf
 set_global_assignment -name BDF_FILE CompMagnitude_M_A.bdf
 set_global_assignment -name BDF_FILE CompMagnitude_M_B.bdf
 set_global_assignment -name BDF_FILE M_A.bdf
 set_global_assignment -name BDF_FILE M_B.bdf
+set_global_assignment -name BDF_FILE ../Complemento_e_igualdade/aigualb.bdf
+set_global_assignment -name BDF_FILE ../Complemento_e_igualdade/complemento2.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
