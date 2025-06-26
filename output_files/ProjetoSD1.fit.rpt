@@ -1,5 +1,5 @@
 Fitter report for ProjetoSD1
-Thu Jun 26 12:06:02 2025
+Thu Jun 26 13:05:15 2025
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Thu Jun 26 12:06:02 2025       ;
+; Fitter Status                      ; Successful - Thu Jun 26 13:05:15 2025       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; ProjetoSD1                                  ;
 ; Top-level Entity Name              ; ProjetoSD1                                  ;
@@ -211,8 +211,8 @@ The pin-out file can be found in D:/Users/lfpab/Downloads/ProjetoULA_SD-main/Pro
 ;                                             ;                         ;
 ; Logic element usage by number of LUT inputs ;                         ;
 ;     -- 4 input functions                    ; 98                      ;
-;     -- 3 input functions                    ; 18                      ;
-;     -- <=2 input functions                  ; 13                      ;
+;     -- 3 input functions                    ; 19                      ;
+;     -- <=2 input functions                  ; 12                      ;
 ;     -- Register only                        ; 0                       ;
 ;                                             ;                         ;
 ; Logic elements by mode                      ;                         ;
@@ -242,10 +242,10 @@ The pin-out file can be found in D:/Users/lfpab/Downloads/ProjetoULA_SD-main/Pro
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )           ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )           ;
 ; Average interconnect usage (total/H/V)      ; 0.1% / 0.1% / 0.1%      ;
-; Peak interconnect usage (total/H/V)         ; 1.4% / 1.1% / 1.9%      ;
+; Peak interconnect usage (total/H/V)         ; 1.4% / 1.1% / 2.0%      ;
 ; Maximum fan-out                             ; 22                      ;
 ; Highest non-global fan-out                  ; 22                      ;
-; Total fan-out                               ; 588                     ;
+; Total fan-out                               ; 589                     ;
 ; Average fan-out                             ; 2.19                    ;
 +---------------------------------------------+-------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
@@ -266,8 +266,8 @@ The pin-out file can be found in D:/Users/lfpab/Downloads/ProjetoULA_SD-main/Pro
 ;                                             ;                        ;                                ;
 ; Logic element usage by number of LUT inputs ;                        ;                                ;
 ;     -- 4 input functions                    ; 98                     ; 0                              ;
-;     -- 3 input functions                    ; 18                     ; 0                              ;
-;     -- <=2 input functions                  ; 13                     ; 0                              ;
+;     -- 3 input functions                    ; 19                     ; 0                              ;
+;     -- <=2 input functions                  ; 12                     ; 0                              ;
 ;     -- Register only                        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Logic elements by mode                      ;                        ;                                ;
@@ -293,7 +293,7 @@ The pin-out file can be found in D:/Users/lfpab/Downloads/ProjetoULA_SD-main/Pro
 ;     -- Registered Output Connections        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Internal Connections                        ;                        ;                                ;
-;     -- Total Connections                    ; 583                    ; 5                              ;
+;     -- Total Connections                    ; 584                    ; 5                              ;
 ;     -- Registered Connections               ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; External Connections                        ;                        ;                                ;
@@ -330,15 +330,15 @@ The pin-out file can be found in D:/Users/lfpab/Downloads/ProjetoULA_SD-main/Pro
 ; A1   ; AA23  ; 5        ; 115          ; 10           ; 7            ; 19                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; A2   ; AA22  ; 5        ; 115          ; 6            ; 14           ; 19                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; A3   ; Y24   ; 5        ; 115          ; 13           ; 0            ; 15                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; A4   ; Y23   ; 5        ; 115          ; 14           ; 7            ; 9                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; A4   ; Y23   ; 5        ; 115          ; 14           ; 7            ; 10                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; B0   ; AC25  ; 5        ; 115          ; 4            ; 21           ; 22                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; B1   ; AB25  ; 5        ; 115          ; 16           ; 7            ; 20                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; B2   ; AC24  ; 5        ; 115          ; 4            ; 14           ; 21                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; B3   ; AB24  ; 5        ; 115          ; 5            ; 14           ; 16                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; B4   ; AB23  ; 5        ; 115          ; 7            ; 14           ; 9                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; S0   ; AB28  ; 5        ; 115          ; 17           ; 0            ; 14                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; S1   ; AC28  ; 5        ; 115          ; 14           ; 0            ; 15                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; S2   ; AC27  ; 5        ; 115          ; 15           ; 7            ; 15                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; S0   ; AB28  ; 5        ; 115          ; 17           ; 0            ; 13                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; S1   ; AC28  ; 5        ; 115          ; 14           ; 0            ; 16                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; S2   ; AC27  ; 5        ; 115          ; 15           ; 7            ; 16                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 
 
@@ -1285,19 +1285,19 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; SINAL_A    ; Incomplete set of assignments ;
 ; SINAL_B    ; Incomplete set of assignments ;
 ; SINAL_F    ; Incomplete set of assignments ;
-; S2         ; Incomplete set of assignments ;
-; A4         ; Incomplete set of assignments ;
-; B4         ; Incomplete set of assignments ;
-; B3         ; Incomplete set of assignments ;
+; S0         ; Incomplete set of assignments ;
 ; B2         ; Incomplete set of assignments ;
-; A2         ; Incomplete set of assignments ;
+; B3         ; Incomplete set of assignments ;
 ; A3         ; Incomplete set of assignments ;
-; B1         ; Incomplete set of assignments ;
+; A2         ; Incomplete set of assignments ;
 ; B0         ; Incomplete set of assignments ;
 ; A0         ; Incomplete set of assignments ;
+; B1         ; Incomplete set of assignments ;
 ; A1         ; Incomplete set of assignments ;
-; S0         ; Incomplete set of assignments ;
+; B4         ; Incomplete set of assignments ;
+; A4         ; Incomplete set of assignments ;
 ; S1         ; Incomplete set of assignments ;
+; S2         ; Incomplete set of assignments ;
 +------------+-------------------------------+
 
 
@@ -1397,19 +1397,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SINAL_A    ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; SINAL_B    ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; SINAL_F    ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; S2         ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; A4         ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; B4         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; B3         ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; B2         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; S0         ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; B2         ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; B3         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; A3         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; A2         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; A3         ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; B1         ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; B0         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; A0         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; A1         ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; S0         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; B1         ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; A1         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; B4         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; A4         ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; S1         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; S2         ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 +------------+----------+---------------+---------------+-----------------------+-----+------+
 
 
@@ -1418,51 +1418,34 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------+-------------------+---------+
 ; Source Pin / Fanout                                       ; Pad To Core Index ; Setting ;
 +-----------------------------------------------------------+-------------------+---------+
-; S2                                                        ;                   ;         ;
-;      - inst66~6                                           ; 1                 ; 6       ;
-;      - inst66~9                                           ; 1                 ; 6       ;
-;      - inst47~2                                           ; 1                 ; 6       ;
-;      - MUX_And:inst52|inst13~0                            ; 1                 ; 6       ;
-;      - OR5F:inst8|inst3~0                                 ; 1                 ; 6       ;
-;      - OR5F:inst10|inst3~3                                ; 1                 ; 6       ;
-;      - OR5F:inst11|inst3~1                                ; 1                 ; 6       ;
-;      - OR5F:inst|inst3~13                                 ; 1                 ; 6       ;
-;      - OR5F:inst|inst3~14                                 ; 1                 ; 6       ;
+; S0                                                        ;                   ;         ;
+;      - inst66~8                                           ; 1                 ; 6       ;
+;      - inst66~10                                          ; 1                 ; 6       ;
+;      - OR5F:inst|inst3~8                                  ; 1                 ; 6       ;
+;      - OR5F:inst|inst3~10                                 ; 1                 ; 6       ;
+;      - OR5F:inst8|inst3~5                                 ; 1                 ; 6       ;
+;      - OR5F:inst9|inst3~10                                ; 1                 ; 6       ;
+;      - OR5F:inst10|inst3~6                                ; 1                 ; 6       ;
+;      - OR5F:inst11|inst3~2                                ; 1                 ; 6       ;
+;      - OR5F:inst11|inst3~3                                ; 1                 ; 6       ;
+;      - OR5F:inst11|inst3~4                                ; 1                 ; 6       ;
+;      - inst66~12                                          ; 1                 ; 6       ;
 ;      - OR5F:inst7|inst~5                                  ; 1                 ; 6       ;
 ;      - OR5F:inst9|inst3~11                                ; 1                 ; 6       ;
-;      - inst29~3                                           ; 1                 ; 6       ;
-;      - inst21~3                                           ; 1                 ; 6       ;
-;      - inst47~4                                           ; 1                 ; 6       ;
-;      - inst56~3                                           ; 1                 ; 6       ;
-; A4                                                        ;                   ;         ;
-;      - inst66~0                                           ; 1                 ; 6       ;
-;      - inst66~5                                           ; 1                 ; 6       ;
-;      - aigualb:inst120|inst4                              ; 1                 ; 6       ;
-;      - OR5F:inst|inst3~9                                  ; 1                 ; 6       ;
-;      - OR5F:inst|inst3~11                                 ; 1                 ; 6       ;
-;      - OR5F:inst8|inst3~0                                 ; 1                 ; 6       ;
-;      - inst42                                             ; 1                 ; 6       ;
-;      - OR5F:inst|inst3~12                                 ; 1                 ; 6       ;
-;      - SINAL_A~output                                     ; 1                 ; 6       ;
-; B4                                                        ;                   ;         ;
-;      - inst66~0                                           ; 0                 ; 6       ;
-;      - inst66~4                                           ; 0                 ; 6       ;
-;      - inst66~5                                           ; 0                 ; 6       ;
-;      - aigualb:inst120|inst4                              ; 0                 ; 6       ;
-;      - OR5F:inst|inst3~9                                  ; 0                 ; 6       ;
-;      - OR5F:inst8|inst3~0                                 ; 0                 ; 6       ;
-;      - OR5F:inst|inst3~12                                 ; 0                 ; 6       ;
-;      - OR5F:inst|inst3~14                                 ; 0                 ; 6       ;
-;      - SINAL_B~output                                     ; 0                 ; 6       ;
-; B3                                                        ;                   ;         ;
+; B2                                                        ;                   ;         ;
 ;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~0        ; 1                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~2        ; 1                 ; 6       ;
+;      - complemento2:inst97|inst14                         ; 1                 ; 6       ;
 ;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~0         ; 1                 ; 6       ;
-;      - complemento2:inst97|inst14~0                       ; 1                 ; 6       ;
-;      - OR5F:inst7|inst~4                                  ; 1                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_A:inst9|X:inst1|inst~0   ; 1                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~1        ; 1                 ; 6       ;
+;      - somador_completo:inst88|somador:inst4|inst4~0      ; 1                 ; 6       ;
 ;      - OR5F:inst8|inst3~2                                 ; 1                 ; 6       ;
-;      - OR5F:inst8|inst3~4                                 ; 1                 ; 6       ;
+;      - somador_completo:inst88|somador:inst28|inst4~0     ; 1                 ; 6       ;
+;      - somador_completo:inst88|somador:inst22|inst4~0     ; 1                 ; 6       ;
+;      - somador_completo:inst88|somador:inst23|inst1       ; 1                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_A:inst9|X:inst2|inst~0   ; 1                 ; 6       ;
+;      - somador_completo:inst88|somador:inst28|inst1~0     ; 1                 ; 6       ;
+;      - OR5F:inst9|inst3~8                                 ; 1                 ; 6       ;
+;      - OR5F:inst9|inst3~9                                 ; 1                 ; 6       ;
 ;      - DEC_4BITS:inst12|inst~0                            ; 1                 ; 6       ;
 ;      - DEC_4BITS:inst12|inst23~0                          ; 1                 ; 6       ;
 ;      - DEC_4BITS:inst12|inst30~0                          ; 1                 ; 6       ;
@@ -1471,20 +1454,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - DEC_4BITS:inst12|inst58~0                          ; 1                 ; 6       ;
 ;      - DEC_4BITS:inst12|inst68~0                          ; 1                 ; 6       ;
 ;      - DEC_4BITS:inst12|inst92~0                          ; 1                 ; 6       ;
-; B2                                                        ;                   ;         ;
+; B3                                                        ;                   ;         ;
 ;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~0        ; 0                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~2        ; 0                 ; 6       ;
+;      - complemento2:inst97|inst14                         ; 0                 ; 6       ;
 ;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~0         ; 0                 ; 6       ;
-;      - complemento2:inst97|inst14~0                       ; 0                 ; 6       ;
-;      - somador_completo:inst88|somador:inst4|inst4~0      ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~1        ; 0                 ; 6       ;
+;      - OR5F:inst7|inst~4                                  ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_A:inst9|X:inst1|inst~0   ; 0                 ; 6       ;
 ;      - OR5F:inst8|inst3~2                                 ; 0                 ; 6       ;
-;      - somador_completo:inst88|somador:inst22|inst4~0     ; 0                 ; 6       ;
-;      - somador_completo:inst88|somador:inst23|inst1       ; 0                 ; 6       ;
-;      - somador_completo:inst88|somador:inst28|inst4~0     ; 0                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_A:inst9|X:inst2|inst~0   ; 0                 ; 6       ;
-;      - somador_completo:inst88|somador:inst28|inst1~0     ; 0                 ; 6       ;
-;      - OR5F:inst9|inst3~8                                 ; 0                 ; 6       ;
-;      - OR5F:inst9|inst3~9                                 ; 0                 ; 6       ;
+;      - OR5F:inst8|inst3~4                                 ; 0                 ; 6       ;
 ;      - DEC_4BITS:inst12|inst~0                            ; 0                 ; 6       ;
 ;      - DEC_4BITS:inst12|inst23~0                          ; 0                 ; 6       ;
 ;      - DEC_4BITS:inst12|inst30~0                          ; 0                 ; 6       ;
@@ -1493,15 +1471,31 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - DEC_4BITS:inst12|inst58~0                          ; 0                 ; 6       ;
 ;      - DEC_4BITS:inst12|inst68~0                          ; 0                 ; 6       ;
 ;      - DEC_4BITS:inst12|inst92~0                          ; 0                 ; 6       ;
+; A3                                                        ;                   ;         ;
+;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~0        ; 0                 ; 6       ;
+;      - inst66~3                                           ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~0         ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~1        ; 0                 ; 6       ;
+;      - OR5F:inst7|inst~4                                  ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_A:inst9|X:inst1|inst~0   ; 0                 ; 6       ;
+;      - OR5F:inst8|inst3~4                                 ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst~0                             ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst23~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst30~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst39~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst44~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst58~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst68~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst92~0                           ; 0                 ; 6       ;
 ; A2                                                        ;                   ;         ;
 ;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~0        ; 0                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~2        ; 0                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~0         ; 0                 ; 6       ;
 ;      - inst66~3                                           ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~0         ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~1        ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst4|inst4~0      ; 0                 ; 6       ;
-;      - somador_completo:inst88|somador:inst22|inst4~0     ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst28|inst4~0     ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst29|inst1       ; 0                 ; 6       ;
+;      - somador_completo:inst88|somador:inst22|inst4~0     ; 0                 ; 6       ;
 ;      - M_A:inst1|CompMagnitude_M_A:inst9|X:inst2|inst~0   ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst28|inst1~0     ; 0                 ; 6       ;
 ;      - OR5F:inst9|inst3~9                                 ; 0                 ; 6       ;
@@ -1513,52 +1507,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - DEC_4BITS:inst6|inst58~0                           ; 0                 ; 6       ;
 ;      - DEC_4BITS:inst6|inst68~0                           ; 0                 ; 6       ;
 ;      - DEC_4BITS:inst6|inst92~0                           ; 0                 ; 6       ;
-; A3                                                        ;                   ;         ;
-;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~0        ; 1                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~2        ; 1                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~0         ; 1                 ; 6       ;
-;      - inst66~3                                           ; 1                 ; 6       ;
-;      - OR5F:inst7|inst~4                                  ; 1                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_A:inst9|X:inst1|inst~0   ; 1                 ; 6       ;
-;      - OR5F:inst8|inst3~4                                 ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst~0                             ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst23~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst30~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst39~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst44~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst58~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst68~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst92~0                           ; 1                 ; 6       ;
-; B1                                                        ;                   ;         ;
-;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~1        ; 1                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~1         ; 1                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_A:inst9|X:inst3|inst~0   ; 1                 ; 6       ;
-;      - complemento2:inst97|inst14~0                       ; 1                 ; 6       ;
-;      - somador_completo:inst88|somador:inst3|inst4~0      ; 1                 ; 6       ;
-;      - complemento2:inst97|inst10                         ; 1                 ; 6       ;
-;      - somador_completo:inst88|somador:inst21|inst4~0     ; 1                 ; 6       ;
-;      - somador_completo:inst88|somador:inst27|inst4~0     ; 1                 ; 6       ;
-;      - somador_completo:inst88|somador:inst3|inst1~0      ; 1                 ; 6       ;
-;      - somador_completo:inst88|somador:inst27|inst1       ; 1                 ; 6       ;
-;      - OR5F:inst10|inst3~3                                ; 1                 ; 6       ;
-;      - OR5F:inst10|inst3~4                                ; 1                 ; 6       ;
-;      - DEC_4BITS:inst12|inst~0                            ; 1                 ; 6       ;
-;      - DEC_4BITS:inst12|inst23~0                          ; 1                 ; 6       ;
-;      - DEC_4BITS:inst12|inst30~0                          ; 1                 ; 6       ;
-;      - DEC_4BITS:inst12|inst39~0                          ; 1                 ; 6       ;
-;      - DEC_4BITS:inst12|inst44~0                          ; 1                 ; 6       ;
-;      - DEC_4BITS:inst12|inst58~0                          ; 1                 ; 6       ;
-;      - DEC_4BITS:inst12|inst68~0                          ; 1                 ; 6       ;
-;      - DEC_4BITS:inst12|inst92~0                          ; 1                 ; 6       ;
 ; B0                                                        ;                   ;         ;
-;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~1        ; 0                 ; 6       ;
+;      - inst66~2                                           ; 0                 ; 6       ;
+;      - complemento2:inst97|inst14                         ; 0                 ; 6       ;
 ;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~1         ; 0                 ; 6       ;
-;      - inst66~7                                           ; 0                 ; 6       ;
-;      - complemento2:inst97|inst14~0                       ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~2        ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst3|inst4~0      ; 0                 ; 6       ;
 ;      - complemento2:inst97|inst10                         ; 0                 ; 6       ;
-;      - somador_completo:inst88|somador:inst21|inst4~0     ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst27|inst4~0     ; 0                 ; 6       ;
+;      - somador_completo:inst88|somador:inst21|inst4~0     ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst3|inst1~0      ; 0                 ; 6       ;
 ;      - OR5F:inst10|inst3~0                                ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst27|inst1       ; 0                 ; 6       ;
@@ -1574,14 +1531,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - DEC_4BITS:inst12|inst68~0                          ; 0                 ; 6       ;
 ;      - DEC_4BITS:inst12|inst92~0                          ; 0                 ; 6       ;
 ; A0                                                        ;                   ;         ;
-;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~1        ; 0                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~1         ; 0                 ; 6       ;
+;      - inst66~2                                           ; 0                 ; 6       ;
 ;      - inst66~3                                           ; 0                 ; 6       ;
-;      - inst66~7                                           ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~1         ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~2        ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst3|inst4~0      ; 0                 ; 6       ;
-;      - somador_completo:inst88|somador:inst21|inst4~0     ; 0                 ; 6       ;
 ;      - somador_completo:inst88|complemento2:inst25|inst10 ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst27|inst4~0     ; 0                 ; 6       ;
+;      - somador_completo:inst88|somador:inst21|inst4~0     ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst3|inst1~0      ; 0                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst27|inst1       ; 0                 ; 6       ;
 ;      - OR5F:inst11|inst3~0                                ; 0                 ; 6       ;
@@ -1594,49 +1551,77 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - DEC_4BITS:inst6|inst58~0                           ; 0                 ; 6       ;
 ;      - DEC_4BITS:inst6|inst68~0                           ; 0                 ; 6       ;
 ;      - DEC_4BITS:inst6|inst92~0                           ; 0                 ; 6       ;
-; A1                                                        ;                   ;         ;
-;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~1        ; 1                 ; 6       ;
-;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~1         ; 1                 ; 6       ;
-;      - inst66~3                                           ; 1                 ; 6       ;
+; B1                                                        ;                   ;         ;
 ;      - M_A:inst1|CompMagnitude_M_A:inst9|X:inst3|inst~0   ; 1                 ; 6       ;
+;      - complemento2:inst97|inst14                         ; 1                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~1         ; 1                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~2        ; 1                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst3|inst4~0      ; 1                 ; 6       ;
-;      - somador_completo:inst88|somador:inst21|inst4~0     ; 1                 ; 6       ;
-;      - somador_completo:inst88|complemento2:inst25|inst10 ; 1                 ; 6       ;
+;      - complemento2:inst97|inst10                         ; 1                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst27|inst4~0     ; 1                 ; 6       ;
+;      - somador_completo:inst88|somador:inst21|inst4~0     ; 1                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst3|inst1~0      ; 1                 ; 6       ;
 ;      - somador_completo:inst88|somador:inst27|inst1       ; 1                 ; 6       ;
+;      - OR5F:inst10|inst3~3                                ; 1                 ; 6       ;
 ;      - OR5F:inst10|inst3~4                                ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst~0                             ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst23~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst30~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst39~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst44~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst58~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst68~0                           ; 1                 ; 6       ;
-;      - DEC_4BITS:inst6|inst92~0                           ; 1                 ; 6       ;
-; S0                                                        ;                   ;         ;
-;      - inst66~1                                           ; 0                 ; 6       ;
-;      - inst66~2                                           ; 0                 ; 6       ;
-;      - inst66~4                                           ; 0                 ; 6       ;
-;      - inst66~10                                          ; 0                 ; 6       ;
-;      - OR5F:inst|inst3~8                                  ; 0                 ; 6       ;
-;      - OR5F:inst|inst3~10                                 ; 0                 ; 6       ;
-;      - OR5F:inst8|inst3~5                                 ; 0                 ; 6       ;
-;      - OR5F:inst9|inst3~10                                ; 0                 ; 6       ;
-;      - OR5F:inst10|inst3~6                                ; 0                 ; 6       ;
-;      - OR5F:inst11|inst3~2                                ; 0                 ; 6       ;
-;      - OR5F:inst11|inst3~3                                ; 0                 ; 6       ;
-;      - OR5F:inst11|inst3~4                                ; 0                 ; 6       ;
-;      - OR5F:inst7|inst~5                                  ; 0                 ; 6       ;
-;      - OR5F:inst9|inst3~11                                ; 0                 ; 6       ;
-; S1                                                        ;                   ;         ;
+;      - DEC_4BITS:inst12|inst~0                            ; 1                 ; 6       ;
+;      - DEC_4BITS:inst12|inst23~0                          ; 1                 ; 6       ;
+;      - DEC_4BITS:inst12|inst30~0                          ; 1                 ; 6       ;
+;      - DEC_4BITS:inst12|inst39~0                          ; 1                 ; 6       ;
+;      - DEC_4BITS:inst12|inst44~0                          ; 1                 ; 6       ;
+;      - DEC_4BITS:inst12|inst58~0                          ; 1                 ; 6       ;
+;      - DEC_4BITS:inst12|inst68~0                          ; 1                 ; 6       ;
+;      - DEC_4BITS:inst12|inst92~0                          ; 1                 ; 6       ;
+; A1                                                        ;                   ;         ;
+;      - M_A:inst1|CompMagnitude_M_A:inst9|X:inst3|inst~0   ; 0                 ; 6       ;
+;      - inst66~3                                           ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_A:inst9|inst16~1         ; 0                 ; 6       ;
+;      - M_A:inst1|CompMagnitude_M_B:inst10|inst16~2        ; 0                 ; 6       ;
+;      - somador_completo:inst88|somador:inst3|inst4~0      ; 0                 ; 6       ;
+;      - somador_completo:inst88|complemento2:inst25|inst10 ; 0                 ; 6       ;
+;      - somador_completo:inst88|somador:inst27|inst4~0     ; 0                 ; 6       ;
+;      - somador_completo:inst88|somador:inst21|inst4~0     ; 0                 ; 6       ;
+;      - somador_completo:inst88|somador:inst3|inst1~0      ; 0                 ; 6       ;
+;      - somador_completo:inst88|somador:inst27|inst1       ; 0                 ; 6       ;
+;      - OR5F:inst10|inst3~4                                ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst~0                             ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst23~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst30~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst39~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst44~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst58~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst68~0                           ; 0                 ; 6       ;
+;      - DEC_4BITS:inst6|inst92~0                           ; 0                 ; 6       ;
+; B4                                                        ;                   ;         ;
+;      - aigualb:inst120|inst4                              ; 0                 ; 6       ;
 ;      - inst66~6                                           ; 0                 ; 6       ;
+;      - inst66~7                                           ; 0                 ; 6       ;
 ;      - inst66~9                                           ; 0                 ; 6       ;
+;      - OR5F:inst|inst3~9                                  ; 0                 ; 6       ;
+;      - OR5F:inst8|inst3~0                                 ; 0                 ; 6       ;
+;      - OR5F:inst|inst3~12                                 ; 0                 ; 6       ;
+;      - OR5F:inst|inst3~14                                 ; 0                 ; 6       ;
+;      - SINAL_B~output                                     ; 0                 ; 6       ;
+; A4                                                        ;                   ;         ;
+;      - aigualb:inst120|inst4                              ; 1                 ; 6       ;
+;      - inst66~7                                           ; 1                 ; 6       ;
+;      - inst66~8                                           ; 1                 ; 6       ;
+;      - inst66~10                                          ; 1                 ; 6       ;
+;      - OR5F:inst|inst3~9                                  ; 1                 ; 6       ;
+;      - OR5F:inst|inst3~11                                 ; 1                 ; 6       ;
+;      - OR5F:inst8|inst3~0                                 ; 1                 ; 6       ;
+;      - inst42                                             ; 1                 ; 6       ;
+;      - OR5F:inst|inst3~12                                 ; 1                 ; 6       ;
+;      - SINAL_A~output                                     ; 1                 ; 6       ;
+; S1                                                        ;                   ;         ;
+;      - inst66~5                                           ; 0                 ; 6       ;
+;      - inst66~11                                          ; 0                 ; 6       ;
 ;      - inst47~2                                           ; 0                 ; 6       ;
 ;      - MUX_And:inst52|inst13~0                            ; 0                 ; 6       ;
 ;      - OR5F:inst8|inst3~0                                 ; 0                 ; 6       ;
 ;      - OR5F:inst10|inst3~3                                ; 0                 ; 6       ;
 ;      - OR5F:inst11|inst3~1                                ; 0                 ; 6       ;
+;      - inst66~12                                          ; 0                 ; 6       ;
 ;      - OR5F:inst|inst3~13                                 ; 0                 ; 6       ;
 ;      - OR5F:inst|inst3~14                                 ; 0                 ; 6       ;
 ;      - OR5F:inst7|inst~5                                  ; 0                 ; 6       ;
@@ -1645,6 +1630,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - inst21~3                                           ; 0                 ; 6       ;
 ;      - inst47~4                                           ; 0                 ; 6       ;
 ;      - inst56~3                                           ; 0                 ; 6       ;
+; S2                                                        ;                   ;         ;
+;      - inst66~5                                           ; 1                 ; 6       ;
+;      - inst66~11                                          ; 1                 ; 6       ;
+;      - inst47~2                                           ; 1                 ; 6       ;
+;      - MUX_And:inst52|inst13~0                            ; 1                 ; 6       ;
+;      - OR5F:inst8|inst3~0                                 ; 1                 ; 6       ;
+;      - OR5F:inst10|inst3~3                                ; 1                 ; 6       ;
+;      - OR5F:inst11|inst3~1                                ; 1                 ; 6       ;
+;      - inst66~12                                          ; 1                 ; 6       ;
+;      - OR5F:inst|inst3~13                                 ; 1                 ; 6       ;
+;      - OR5F:inst|inst3~14                                 ; 1                 ; 6       ;
+;      - OR5F:inst7|inst~5                                  ; 1                 ; 6       ;
+;      - OR5F:inst9|inst3~11                                ; 1                 ; 6       ;
+;      - inst29~3                                           ; 1                 ; 6       ;
+;      - inst21~3                                           ; 1                 ; 6       ;
+;      - inst47~4                                           ; 1                 ; 6       ;
+;      - inst56~3                                           ; 1                 ; 6       ;
 +-----------------------------------------------------------+-------------------+---------+
 
 
@@ -1653,14 +1655,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-------------------------+
 ; Routing Resource Type ; Usage                   ;
 +-----------------------+-------------------------+
-; Block interconnects   ; 165 / 342,891 ( < 1 % ) ;
-; C16 interconnects     ; 37 / 10,120 ( < 1 % )   ;
-; C4 interconnects      ; 167 / 209,544 ( < 1 % ) ;
-; Direct links          ; 25 / 342,891 ( < 1 % )  ;
+; Block interconnects   ; 160 / 342,891 ( < 1 % ) ;
+; C16 interconnects     ; 39 / 10,120 ( < 1 % )   ;
+; C4 interconnects      ; 195 / 209,544 ( < 1 % ) ;
+; Direct links          ; 13 / 342,891 ( < 1 % )  ;
 ; Global clocks         ; 0 / 20 ( 0 % )          ;
-; Local interconnects   ; 62 / 119,088 ( < 1 % )  ;
-; R24 interconnects     ; 38 / 9,963 ( < 1 % )    ;
-; R4 interconnects      ; 102 / 289,782 ( < 1 % ) ;
+; Local interconnects   ; 75 / 119,088 ( < 1 % )  ;
+; R24 interconnects     ; 47 / 9,963 ( < 1 % )    ;
+; R4 interconnects      ; 95 / 289,782 ( < 1 % )  ;
 +-----------------------+-------------------------+
 
 
@@ -1669,22 +1671,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------+------------------------------+
 ; Number of Logic Elements  (Average = 11.73) ; Number of LABs  (Total = 11) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 1                            ;
+; 1                                           ; 2                            ;
 ; 2                                           ; 0                            ;
 ; 3                                           ; 0                            ;
 ; 4                                           ; 0                            ;
 ; 5                                           ; 0                            ;
 ; 6                                           ; 0                            ;
-; 7                                           ; 2                            ;
+; 7                                           ; 0                            ;
 ; 8                                           ; 1                            ;
 ; 9                                           ; 0                            ;
 ; 10                                          ; 0                            ;
 ; 11                                          ; 0                            ;
 ; 12                                          ; 1                            ;
 ; 13                                          ; 0                            ;
-; 14                                          ; 1                            ;
-; 15                                          ; 0                            ;
-; 16                                          ; 5                            ;
+; 14                                          ; 2                            ;
+; 15                                          ; 1                            ;
+; 16                                          ; 4                            ;
 +---------------------------------------------+------------------------------+
 
 
@@ -1694,71 +1696,72 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Number of Signals Sourced  (Average = 11.73) ; Number of LABs  (Total = 11) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 1                            ;
+; 1                                            ; 2                            ;
 ; 2                                            ; 0                            ;
 ; 3                                            ; 0                            ;
 ; 4                                            ; 0                            ;
 ; 5                                            ; 0                            ;
 ; 6                                            ; 0                            ;
-; 7                                            ; 2                            ;
+; 7                                            ; 0                            ;
 ; 8                                            ; 1                            ;
 ; 9                                            ; 0                            ;
 ; 10                                           ; 0                            ;
 ; 11                                           ; 0                            ;
 ; 12                                           ; 1                            ;
 ; 13                                           ; 0                            ;
-; 14                                           ; 1                            ;
-; 15                                           ; 0                            ;
-; 16                                           ; 5                            ;
+; 14                                           ; 2                            ;
+; 15                                           ; 1                            ;
+; 16                                           ; 4                            ;
 +----------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 6.73) ; Number of LABs  (Total = 11) ;
+; Number of Signals Sourced Out  (Average = 5.64) ; Number of LABs  (Total = 11) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 1                            ;
+; 1                                               ; 2                            ;
 ; 2                                               ; 0                            ;
-; 3                                               ; 0                            ;
+; 3                                               ; 2                            ;
 ; 4                                               ; 0                            ;
-; 5                                               ; 1                            ;
+; 5                                               ; 2                            ;
 ; 6                                               ; 0                            ;
-; 7                                               ; 6                            ;
-; 8                                               ; 1                            ;
-; 9                                               ; 2                            ;
+; 7                                               ; 2                            ;
+; 8                                               ; 2                            ;
+; 9                                               ; 0                            ;
+; 10                                              ; 0                            ;
+; 11                                              ; 0                            ;
+; 12                                              ; 0                            ;
+; 13                                              ; 0                            ;
+; 14                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                        ;
 +---------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 9.64) ; Number of LABs  (Total = 11) ;
+; Number of Distinct Inputs  (Average = 9.36) ; Number of LABs  (Total = 11) ;
 +---------------------------------------------+------------------------------+
 ; 0                                           ; 0                            ;
 ; 1                                           ; 0                            ;
 ; 2                                           ; 1                            ;
 ; 3                                           ; 0                            ;
 ; 4                                           ; 2                            ;
-; 5                                           ; 1                            ;
-; 6                                           ; 1                            ;
+; 5                                           ; 0                            ;
+; 6                                           ; 2                            ;
 ; 7                                           ; 0                            ;
 ; 8                                           ; 0                            ;
-; 9                                           ; 1                            ;
-; 10                                          ; 0                            ;
-; 11                                          ; 1                            ;
-; 12                                          ; 1                            ;
-; 13                                          ; 0                            ;
-; 14                                          ; 1                            ;
+; 9                                           ; 0                            ;
+; 10                                          ; 2                            ;
+; 11                                          ; 0                            ;
+; 12                                          ; 0                            ;
+; 13                                          ; 2                            ;
+; 14                                          ; 0                            ;
 ; 15                                          ; 0                            ;
 ; 16                                          ; 0                            ;
 ; 17                                          ; 1                            ;
-; 18                                          ; 0                            ;
-; 19                                          ; 0                            ;
-; 20                                          ; 0                            ;
-; 21                                          ; 0                            ;
-; 22                                          ; 1                            ;
+; 18                                          ; 1                            ;
 +---------------------------------------------+------------------------------+
 
 
@@ -1875,19 +1878,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SINAL_A            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; SINAL_B            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; SINAL_F            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; S2                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; A4                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; B4                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; B3                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; S0                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; B2                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; A2                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; B3                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; A3                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; B1                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; A2                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; B0                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; A0                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; B1                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; A1                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; S0                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; B4                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; A4                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; S1                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; S2                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
 
@@ -1964,7 +1967,7 @@ Info (332130): Timing requirements not specified -- quality metrics such as perf
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1986,9 +1989,9 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Info (144001): Generated suppressed messages file D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/output_files/ProjetoSD1.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 6722 megabytes
-    Info: Processing ended: Thu Jun 26 12:06:02 2025
-    Info: Elapsed time: 00:00:09
+    Info: Peak virtual memory: 6719 megabytes
+    Info: Processing ended: Thu Jun 26 13:05:15 2025
+    Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:10
 
 

@@ -5323,14 +5323,6 @@ refer to the applicable agreement for further details.
 	(pt 1000 2672)
 )
 (connector
-	(pt 872 3136)
-	(pt 880 3136)
-)
-(connector
-	(pt 880 3136)
-	(pt 1000 3136)
-)
-(connector
 	(pt 1000 2672)
 	(pt 1016 2672)
 )
@@ -7250,6 +7242,10 @@ refer to the applicable agreement for further details.
 	(pt 632 7456)
 	(pt 632 7576)
 )
+(connector
+	(pt 880 3136)
+	(pt 1000 3136)
+)
 (junction (pt 208 56))
 (junction (pt 208 40))
 (junction (pt 320 56))
@@ -7329,7 +7325,6 @@ refer to the applicable agreement for further details.
 (junction (pt 424 2184))
 (junction (pt 576 2200))
 (junction (pt 632 2216))
-(junction (pt 880 3136))
 (junction (pt 320 3088))
 (junction (pt 424 3104))
 (junction (pt 528 3160))

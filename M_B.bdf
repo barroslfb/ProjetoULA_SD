@@ -4,9 +4,9 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2022  Intel Corporation. All rights reserved.
+Copyright (C) 2017  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and any partner logic 
+and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -16,8 +16,7 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details, at
-https://fpgasoftware.intel.com/eula.
+refer to the applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
 (pin
@@ -791,11 +790,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "B[4]" (rect 216 597 233 617)(font "Intel Clear" )(vertical))
-	(pt 232 312)
-	(pt 232 624)
-)
-(connector
 	(pt 264 360)
 	(pt 416 360)
 )
@@ -807,11 +801,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 232 624)
 	(pt 264 624)
 	(bus)
-)
-(connector
-	(text "B[3]" (rect 248 597 265 617)(font "Intel Clear" )(vertical))
-	(pt 264 360)
-	(pt 264 624)
 )
 (connector
 	(pt 296 408)
@@ -827,11 +816,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "B[2]" (rect 280 597 297 617)(font "Intel Clear" )(vertical))
-	(pt 296 408)
-	(pt 296 624)
-)
-(connector
 	(pt 328 448)
 	(pt 440 448)
 )
@@ -843,11 +827,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 296 624)
 	(pt 328 624)
 	(bus)
-)
-(connector
-	(text "B[1]" (rect 312 597 329 617)(font "Intel Clear" )(vertical))
-	(pt 328 448)
-	(pt 328 624)
 )
 (connector
 	(pt 360 488)
@@ -868,22 +847,9 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "B[0]" (rect 344 597 361 617)(font "Intel Clear" )(vertical))
-	(pt 360 488)
-	(pt 360 624)
-)
-(connector
-	(pt 584 -80)
-	(pt 352 -80)
-)
-(connector
 	(text "A[3]" (rect 336 109 353 129)(font "Intel Clear" )(vertical))
 	(pt 352 32)
 	(pt 352 128)
-)
-(connector
-	(pt 584 -96)
-	(pt 320 -96)
 )
 (connector
 	(text "A[2]" (rect 304 133 321 153)(font "Intel Clear" )(vertical))
@@ -891,42 +857,14 @@ https://fpgasoftware.intel.com/eula.
 	(pt 320 160)
 )
 (connector
-	(pt 584 -112)
-	(pt 280 -112)
-)
-(connector
 	(text "A[1]" (rect 264 173 281 193)(font "Intel Clear" )(vertical))
 	(pt 280 32)
 	(pt 280 200)
 )
 (connector
-	(pt 584 -128)
-	(pt 240 -128)
-)
-(connector
 	(text "A[0]" (rect 224 205 241 225)(font "Intel Clear" )(vertical))
 	(pt 240 32)
 	(pt 240 232)
-)
-(connector
-	(text "A[0]" (rect 224 5 241 25)(font "Intel Clear" )(vertical))
-	(pt 240 -128)
-	(pt 240 32)
-)
-(connector
-	(text "A[1]" (rect 264 5 281 25)(font "Intel Clear" )(vertical))
-	(pt 280 -112)
-	(pt 280 32)
-)
-(connector
-	(text "A[2]" (rect 304 5 321 25)(font "Intel Clear" )(vertical))
-	(pt 320 -96)
-	(pt 320 32)
-)
-(connector
-	(text "A[3]" (rect 336 5 353 25)(font "Intel Clear" )(vertical))
-	(pt 352 -80)
-	(pt 352 32)
 )
 (connector
 	(pt 616 64)
@@ -959,6 +897,99 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 672 72)
 	(pt 680 72)
+)
+(connector
+	(text "B[4]" (rect 216 597 233 617)(font "Intel Clear" )(vertical))
+	(pt 232 312)
+	(pt 232 624)
+)
+(connector
+	(text "B[3]" (rect 248 597 265 617)(font "Intel Clear" )(vertical))
+	(pt 264 360)
+	(pt 264 624)
+)
+(connector
+	(text "B[3]" (rect 248 661 265 681)(font "Intel Clear" )(vertical))
+	(pt 264 624)
+	(pt 264 688)
+)
+(connector
+	(pt 16 688)
+	(pt 264 688)
+)
+(connector
+	(pt 16 -128)
+	(pt 16 688)
+)
+(connector
+	(pt 16 -128)
+	(pt 584 -128)
+)
+(connector
+	(text "B[2]" (rect 280 661 297 681)(font "Intel Clear" )(vertical))
+	(pt 296 624)
+	(pt 296 712)
+)
+(connector
+	(pt -48 712)
+	(pt 296 712)
+)
+(connector
+	(pt -48 -112)
+	(pt -48 712)
+)
+(connector
+	(pt -48 -112)
+	(pt 584 -112)
+)
+(connector
+	(text "B[1]" (rect 312 661 329 681)(font "Intel Clear" )(vertical))
+	(pt 328 624)
+	(pt 328 736)
+)
+(connector
+	(pt -96 736)
+	(pt 328 736)
+)
+(connector
+	(pt -96 -96)
+	(pt -96 736)
+)
+(connector
+	(pt -96 -96)
+	(pt 584 -96)
+)
+(connector
+	(text "B[0]" (rect 344 669 361 689)(font "Intel Clear" )(vertical))
+	(pt 360 624)
+	(pt 360 768)
+)
+(connector
+	(pt -160 768)
+	(pt 360 768)
+)
+(connector
+	(pt -160 -80)
+	(pt -160 768)
+)
+(connector
+	(pt -160 -80)
+	(pt 584 -80)
+)
+(connector
+	(text "B[2]" (rect 280 597 297 617)(font "Intel Clear" )(vertical))
+	(pt 296 408)
+	(pt 296 624)
+)
+(connector
+	(text "B[1]" (rect 312 597 329 617)(font "Intel Clear" )(vertical))
+	(pt 328 448)
+	(pt 328 624)
+)
+(connector
+	(text "B[0]" (rect 344 597 361 617)(font "Intel Clear" )(vertical))
+	(pt 360 488)
+	(pt 360 624)
 )
 (junction (pt 416 360))
 (junction (pt 424 408))

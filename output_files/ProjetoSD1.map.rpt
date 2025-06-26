@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ProjetoSD1
-Thu Jun 26 12:05:52 2025
+Thu Jun 26 13:05:07 2025
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Jun 26 12:05:52 2025       ;
+; Analysis & Synthesis Status        ; Successful - Thu Jun 26 13:05:07 2025       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; ProjetoSD1                                  ;
 ; Top-level Entity Name              ; ProjetoSD1                                  ;
@@ -199,8 +199,8 @@ refer to the applicable agreement for further details.
 ; Total combinational functions               ; 129      ;
 ; Logic element usage by number of LUT inputs ;          ;
 ;     -- 4 input functions                    ; 98       ;
-;     -- 3 input functions                    ; 18       ;
-;     -- <=2 input functions                  ; 13       ;
+;     -- 3 input functions                    ; 19       ;
+;     -- <=2 input functions                  ; 12       ;
 ;                                             ;          ;
 ; Logic elements by mode                      ;          ;
 ;     -- normal mode                          ; 129      ;
@@ -216,7 +216,7 @@ refer to the applicable agreement for further details.
 ;                                             ;          ;
 ; Maximum fan-out node                        ; B0~input ;
 ; Maximum fan-out                             ; 22       ;
-; Total fan-out                               ; 583      ;
+; Total fan-out                               ; 584      ;
 ; Average fan-out                             ; 2.25     ;
 +---------------------------------------------+----------+
 
@@ -285,12 +285,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;     normal            ; 147                         ;
 ;         0 data inputs ; 2                           ;
 ;         1 data inputs ; 16                          ;
-;         2 data inputs ; 13                          ;
-;         3 data inputs ; 18                          ;
+;         2 data inputs ; 12                          ;
+;         3 data inputs ; 19                          ;
 ;         4 data inputs ; 98                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 10.00                       ;
-; Average LUT depth     ; 7.33                        ;
+; Average LUT depth     ; 7.35                        ;
 +-----------------------+-----------------------------+
 
 
@@ -309,7 +309,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Thu Jun 26 12:05:43 2025
+    Info: Processing started: Thu Jun 26 13:04:58 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ProjetoSD1 -c ProjetoSD1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -424,8 +424,8 @@ Info (21057): Implemented 194 device resources after synthesis - the final resou
     Info (21059): Implemented 52 output pins
     Info (21061): Implemented 129 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 37 warnings
-    Info: Peak virtual memory: 4786 megabytes
-    Info: Processing ended: Thu Jun 26 12:05:52 2025
+    Info: Peak virtual memory: 4787 megabytes
+    Info: Processing ended: Thu Jun 26 13:05:07 2025
     Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:07
 
