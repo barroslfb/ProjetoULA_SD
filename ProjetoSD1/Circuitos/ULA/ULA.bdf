@@ -693,7 +693,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 184 -8 288 104)
+	(rect 72 112 176 224)
 	(text "OR5" (rect 39 -1 67 15)(font "Courier New" (font_size 10)(bold)))
 	(text "inst44" (rect 3 101 31 118)(font "Intel Clear" ))
 	(port

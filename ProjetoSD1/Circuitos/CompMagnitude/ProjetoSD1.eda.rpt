@@ -1,5 +1,5 @@
 EDA Netlist Writer report for ProjetoSD1
-Wed Jun 25 22:11:00 2025
+Wed Jun 25 22:19:54 2025
 Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
 
 
@@ -37,9 +37,9 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Jun 25 22:11:00 2025 ;
+; EDA Netlist Writer Status ; Successful - Wed Jun 25 22:19:54 2025 ;
 ; Revision Name             ; ProjetoSD1                            ;
-; Top-level Entity Name     ; M_A                                   ;
+; Top-level Entity Name     ; M_B                                   ;
 ; Family                    ; Cyclone IV E                          ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -95,13 +95,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Wed Jun 25 22:10:56 2025
+    Info: Processing started: Wed Jun 25 22:19:50 2025
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/Users/lfpab/ProjetoULA_SD/ProjetoSD1/Circuitos/CompMagnitude/simulation/qsim/ ProjetoSD1 -c ProjetoSD1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file ProjetoSD1.vo in folder "D:/Users/lfpab/ProjetoULA_SD/ProjetoSD1/Circuitos/CompMagnitude/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 4657 megabytes
-    Info: Processing ended: Wed Jun 25 22:11:00 2025
+    Info: Processing ended: Wed Jun 25 22:19:54 2025
     Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:00
 

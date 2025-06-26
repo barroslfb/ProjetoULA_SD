@@ -4,47 +4,79 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "A_MAIORQUE_B",
+					"name" : "Ae",
 					"strict" : false
 				},
 				{
-					"name" : "A[3]",
+					"name" : "Be",
 					"strict" : false
 				},
 				{
-					"name" : "A[2]",
+					"name" : "Ce",
 					"strict" : false
 				},
 				{
-					"name" : "B[2]",
+					"name" : "De",
 					"strict" : false
 				},
 				{
-					"name" : "B[3]",
+					"name" : "Ee",
 					"strict" : false
 				},
 				{
-					"name" : "B[4]",
+					"name" : "Fe",
 					"strict" : false
 				},
 				{
-					"name" : "A[1]",
+					"name" : "Ge",
 					"strict" : false
 				},
 				{
-					"name" : "A[0]",
+					"name" : "Ad",
 					"strict" : false
 				},
 				{
-					"name" : "B[0]",
+					"name" : "Bd",
 					"strict" : false
 				},
 				{
-					"name" : "B[1]",
+					"name" : "Cd",
 					"strict" : false
 				},
 				{
-					"name" : "A[4]",
+					"name" : "Dd",
+					"strict" : false
+				},
+				{
+					"name" : "Ed",
+					"strict" : false
+				},
+				{
+					"name" : "Fd",
+					"strict" : false
+				},
+				{
+					"name" : "Gd",
+					"strict" : false
+				},
+				{
+					"name" : "ABCDE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ABCDE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ABCDE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ABCDE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ABCDE[0]",
 					"strict" : false
 				}
 			]
