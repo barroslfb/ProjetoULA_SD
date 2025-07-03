@@ -1,8 +1,0 @@
-vendor_name = ModelSim
-source_file = 1, C:/ProjetoSD1/DecodificadorDisplay/DecodificadorDisplay.bdf
-source_file = 1, C:/ProjetoSD1/ULA/CircuitoAND.bdf
-source_file = 1, C:/ProjetoSD1/ProjetoSD1.bdf
-source_file = 1, C:/ProjetoSD1/db/ProjetoSD1.cbx.xml
-design_name = hard_block
-design_name = ProjetoSD1
-instance = comp, \pin_name1~input\, pin_name1~input, ProjetoSD1, 1

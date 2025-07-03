@@ -1,6 +1,6 @@
 Analysis & Synthesis report for ProjetoSD1
-Thu Jun 26 13:05:07 2025
-Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Thu Jul 03 00:43:26 2025
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -23,9 +23,9 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2017  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -35,15 +35,16 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 
 
 
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Jun 26 13:05:07 2025       ;
-; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Analysis & Synthesis Status        ; Successful - Thu Jul 03 00:43:26 2025       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ProjetoSD1                                  ;
 ; Top-level Entity Name              ; ProjetoSD1                                  ;
 ; Family                             ; Cyclone IV E                                ;
@@ -59,90 +60,90 @@ refer to the applicable agreement for further details.
 +------------------------------------+---------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                        ;
-+----------------------------------------------------------------------------+--------------------+--------------------+
-; Option                                                                     ; Setting            ; Default Value      ;
-+----------------------------------------------------------------------------+--------------------+--------------------+
-; Device                                                                     ; EP4CE115F29C7      ;                    ;
-; Top-level entity name                                                      ; ProjetoSD1         ; ProjetoSD1         ;
-; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
-; Use smart compilation                                                      ; Off                ; Off                ;
-; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
-; Enable compact report table                                                ; Off                ; Off                ;
-; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
-; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
-; Preserve fewer node names                                                  ; On                 ; On                 ;
-; Intel FPGA IP Evaluation Mode                                              ; Enable             ; Enable             ;
-; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
-; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
-; State Machine Processing                                                   ; Auto               ; Auto               ;
-; Safe State Machine                                                         ; Off                ; Off                ;
-; Extract Verilog State Machines                                             ; On                 ; On                 ;
-; Extract VHDL State Machines                                                ; On                 ; On                 ;
-; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
-; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
-; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
-; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
-; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
-; Parallel Synthesis                                                         ; On                 ; On                 ;
-; DSP Block Balancing                                                        ; Auto               ; Auto               ;
-; NOT Gate Push-Back                                                         ; On                 ; On                 ;
-; Power-Up Don't Care                                                        ; On                 ; On                 ;
-; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
-; Remove Duplicate Registers                                                 ; On                 ; On                 ;
-; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
-; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
-; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
-; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
-; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
-; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
-; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
-; Optimization Technique                                                     ; Balanced           ; Balanced           ;
-; Carry Chain Length                                                         ; 70                 ; 70                 ;
-; Auto Carry Chains                                                          ; On                 ; On                 ;
-; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
-; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
-; Auto ROM Replacement                                                       ; On                 ; On                 ;
-; Auto RAM Replacement                                                       ; On                 ; On                 ;
-; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
-; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
-; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
-; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
-; Strict RAM Replacement                                                     ; Off                ; Off                ;
-; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
-; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
-; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
-; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
-; Auto Resource Sharing                                                      ; Off                ; Off                ;
-; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
-; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
-; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
-; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
-; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
-; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
-; Report Parameter Settings                                                  ; On                 ; On                 ;
-; Report Source Assignments                                                  ; On                 ; On                 ;
-; Report Connectivity Checks                                                 ; On                 ; On                 ;
-; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
-; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
-; Power Optimization During Synthesis                                        ; Normal compilation ; Normal compilation ;
-; HDL message level                                                          ; Level2             ; Level2             ;
-; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
-; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
-; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
-; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
-; Clock MUX Protection                                                       ; On                 ; On                 ;
-; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
-; Block Design Naming                                                        ; Auto               ; Auto               ;
-; SDC constraint protection                                                  ; Off                ; Off                ;
-; Synthesis Effort                                                           ; Auto               ; Auto               ;
-; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
-; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
-; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
-; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
-; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
-+----------------------------------------------------------------------------+--------------------+--------------------+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                            ; ProjetoSD1         ; ProjetoSD1         ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
 
 
 +------------------------------------------+
@@ -150,8 +151,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 16          ;
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -161,32 +162,32 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                               ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                     ; Library ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------+---------+
-; ../../../and5_f.bdf              ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/and5_f.bdf                                                              ;         ;
-; Decodificador.bdf                ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/Decodificador.bdf      ;         ;
-; M_B.bdf                          ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/M_B.bdf                ;         ;
-; M_A.bdf                          ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/M_A.bdf                ;         ;
-; CompMagnitude_M_B.bdf            ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/CompMagnitude_M_B.bdf  ;         ;
-; CompMagnitude_M_A.bdf            ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/CompMagnitude_M_A.bdf  ;         ;
-; CircuitoXOR.bdf                  ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/CircuitoXOR.bdf        ;         ;
-; CircuitoAND.bdf                  ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/CircuitoAND.bdf        ;         ;
-; OR5F.bdf                         ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/OR5F.bdf               ;         ;
-; bmaiorquea.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/bmaiorquea.bdf         ;         ;
-; amaiorqueb.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/amaiorqueb.bdf         ;         ;
-; X.bdf                            ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/X.bdf                  ;         ;
-; somador.bdf                      ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/somador.bdf            ;         ;
-; complemento2.bdf                 ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/complemento2.bdf       ;         ;
-; subtrator_completo.bdf           ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/subtrator_completo.bdf ;         ;
-; ProjetoSD1.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/ProjetoSD1.bdf         ;         ;
-; aigualb.bdf                      ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/aigualb.bdf            ;         ;
-; MUX_And.bdf                      ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/MUX_And.bdf            ;         ;
-; somador_completo.bdf             ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/somador_completo.bdf   ;         ;
-; DEC_4BITS.bdf                    ; yes             ; User Block Diagram/Schematic File  ; D:/Users/lfpab/Downloads/ProjetoULA_SD-main/ProjetoULA_SD-main/ProjetoSD1/DEC_4BITS.bdf          ;         ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                         ;
++----------------------------------+-----------------+------------------------------------------+------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                         ; Library ;
++----------------------------------+-----------------+------------------------------------------+------------------------------------------------------+---------+
+; Decodificador.bdf                ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/Decodificador.bdf      ;         ;
+; M_B.bdf                          ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/M_B.bdf                ;         ;
+; M_A.bdf                          ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/M_A.bdf                ;         ;
+; CompMagnitude_M_B.bdf            ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/CompMagnitude_M_B.bdf  ;         ;
+; CompMagnitude_M_A.bdf            ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/CompMagnitude_M_A.bdf  ;         ;
+; CircuitoXOR.bdf                  ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/CircuitoXOR.bdf        ;         ;
+; CircuitoAND.bdf                  ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/CircuitoAND.bdf        ;         ;
+; OR5F.bdf                         ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/OR5F.bdf               ;         ;
+; bmaiorquea.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/bmaiorquea.bdf         ;         ;
+; amaiorqueb.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/amaiorqueb.bdf         ;         ;
+; X.bdf                            ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/X.bdf                  ;         ;
+; somador.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/somador.bdf            ;         ;
+; complemento2.bdf                 ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/complemento2.bdf       ;         ;
+; subtrator_completo.bdf           ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/subtrator_completo.bdf ;         ;
+; ProjetoSD1.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/ProjetoSD1.bdf         ;         ;
+; aigualb.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/aigualb.bdf            ;         ;
+; MUX_And.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/MUX_And.bdf            ;         ;
+; somador_completo.bdf             ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/somador_completo.bdf   ;         ;
+; DEC_4BITS.bdf                    ; yes             ; User Block Diagram/Schematic File        ; C:/ProjetoULA_SD/QuartusFiles/DEC_4BITS.bdf          ;         ;
+; and5_f.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/ProjetoULA_SD/QuartusFiles/and5_f.bdf             ;         ;
++----------------------------------+-----------------+------------------------------------------+------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------+
@@ -299,7 +300,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -308,13 +309,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Thu Jun 26 13:04:58 2025
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Thu Jul 03 00:43:13 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ProjetoSD1 -c ProjetoSD1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file /users/lfpab/downloads/and5_f.bdf
-    Info (12023): Found entity 1: and5_f
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Warning (12019): Can't analyze file -- file ../../and5_f.bdf is missing
 Info (12021): Found 1 design units, including 1 entities, in source file decodificador.bdf
     Info (12023): Found entity 1: Decodificador
 Info (12021): Found 1 design units, including 1 entities, in source file m_b.bdf
@@ -361,6 +361,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file somador
     Info (12023): Found entity 1: somador_completo
 Info (12021): Found 1 design units, including 1 entities, in source file dec_4bits.bdf
     Info (12023): Found entity 1: DEC_4BITS
+Warning (12019): Can't analyze file -- file and5f.bdf is missing
 Info (12127): Elaborating entity "ProjetoSD1" for the top level hierarchy
 Warning (275080): Converted elements in bus name "A" using legacy naming rules. Make any assignments on the new names, not on the original names.
     Warning (275081): Converted element name(s) from "A[4..0]" to "A4..0"
@@ -407,6 +408,8 @@ Info (12128): Elaborating entity "subtrator_completo" for hierarchy "subtrator_c
 Info (12128): Elaborating entity "CircuitoAND" for hierarchy "CircuitoAND:CAIXAAND"
 Info (12128): Elaborating entity "CircuitoXOR" for hierarchy "CircuitoXOR:CAIXAXOR"
 Info (12128): Elaborating entity "Decodificador" for hierarchy "Decodificador:inst3"
+Warning (12125): Using design file and5_f.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: and5_f
 Info (12128): Elaborating entity "and5_f" for hierarchy "Decodificador:inst3|and5_f:inst24"
 Info (12128): Elaborating entity "DEC_4BITS" for hierarchy "DEC_4BITS:inst6"
 Warning (13024): Output pins are stuck at VCC or GND
@@ -423,10 +426,10 @@ Info (21057): Implemented 194 device resources after synthesis - the final resou
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 52 output pins
     Info (21061): Implemented 129 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 37 warnings
-    Info: Peak virtual memory: 4787 megabytes
-    Info: Processing ended: Thu Jun 26 13:05:07 2025
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:07
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 39 warnings
+    Info: Peak virtual memory: 4779 megabytes
+    Info: Processing ended: Thu Jul 03 00:43:26 2025
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:24
 
 
